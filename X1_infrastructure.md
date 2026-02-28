@@ -1,7 +1,7 @@
 # X1MK3 Infrastructure & Core Controls
 
 **Source:** X1MK3 Performance Mod v12 (Community Forum)  
-**Commit:** https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_infrastructure.md  
+**Commit:** https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_infrastructure.md  
 **Traktor:** 4.4.1
 
 ---
@@ -86,8 +86,8 @@ MappingPropertyDescriptor {
 ## See Also
 
 - All other features depend on this infrastructure
-- Related: [Tempo Control](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_tempo-control.md), [Beatgrid Control](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_beatgrid-control.md), [Browser Mode](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_browser-mode.md)
-- Advanced: [Custom Overmapping Support](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_overmapping-support.md)
+- Related: [Tempo Control](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_tempo-control.md), [Beatgrid Control](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_beatgrid-control.md), [Browser Mode](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_browser-mode.md)
+- Advanced: [Custom Overmapping Support](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_overmapping-support.md)
 
 ---
 
@@ -304,7 +304,7 @@ Each feature that adds new controls typically:
 
 ### Works Alongside
 
-- All X1MK3 features ([Tempo Control](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_tempo-control.md), [Beatgrid](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_beatgrid-control.md), [Mixer](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_mixer-overlay.md), etc.)
+- All X1MK3 features ([Tempo Control](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_tempo-control.md), [Beatgrid](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_beatgrid-control.md), [Mixer](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_mixer-overlay.md), etc.)
   - Infrastructure provides shared state for all features
   - No conflicts when all features in same mod
 
@@ -373,4 +373,4 @@ When layering X1 with other mods (S4, S8, D2, etc.):
 
 - **Source:** [X1MK3 Community Performance MOD (qml coding)](https://community.native-instruments.com/discussion/17167/x1mk3-community-performance-mod-qml-coding)
 - **Creator:** [@Sûlherokhh](https://community.native-instruments.com/profile/S%C3%BClherokhh)
-- **Related:** X1MK3_TP4.4.1_PerformanceMod_12 (ZIP archive)
+- **Related:** X1MK3_PerformanceMod_12 (ZIP archive)

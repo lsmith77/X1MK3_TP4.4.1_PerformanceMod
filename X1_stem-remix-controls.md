@@ -7,9 +7,9 @@
 
 ## See Also
 
-- **Foundation:** [X1 Infrastructure](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_infrastructure.md) (SHIFT key, overlay management)
-- **Related:** [Mixer Overlay](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_mixer-overlay.md) (setup page 2, superknob wiring)
-- **Feedback:** [Transport LED Feedback](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_transport-led-feedback.md), [Screen Feedback](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_screen-feedback.md)
+- **Foundation:** [X1 Infrastructure](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_infrastructure.md) (SHIFT key, overlay management)
+- **Related:** [Mixer Overlay](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_mixer-overlay.md) (setup page 2, superknob wiring)
+- **Feedback:** [Transport LED Feedback](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_transport-led-feedback.md), [Screen Feedback](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_screen-feedback.md)
 
 Advanced stem and remix deck controls combining Superknob technology (dual-parameter knobs) with capture source management and quantization. FX knobs in Mixer Overlay control stem/remix channel volume and high-pass filter simultaneously. Shift [Hold] + Loop encoder manages capture source and quantization with screen feedback.
 

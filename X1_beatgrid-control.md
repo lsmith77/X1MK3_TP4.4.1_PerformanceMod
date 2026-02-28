@@ -1,7 +1,7 @@
 # X1MK3 Beatgrid Control (Manual Tap, Markers, Deletion)
 
 **Source:** X1MK3 Performance Mod v12 (Community Forum)  
-**Commit:** https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_beatgrid-control.md  
+**Commit:** https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_beatgrid-control.md  
 **Traktor:** 4.4.1
 
 ---
@@ -50,9 +50,9 @@ MappingPropertyDescriptor {
 
 ## See Also
 
-- **Foundation:** [X1 Infrastructure](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_infrastructure.md) (SHIFT key handling)
-- **Related:** [Tempo Control](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_tempo-control.md) (synchronized tempo/beats)
-- **Feedback:** [Transport LED Feedback](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_transport-led-feedback.md), [Screen Feedback](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_screen-feedback.md)
+- **Foundation:** [X1 Infrastructure](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_infrastructure.md) (SHIFT key handling)
+- **Related:** [Tempo Control](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_tempo-control.md) (synchronized tempo/beats)
+- **Feedback:** [Transport LED Feedback](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_transport-led-feedback.md), [Screen Feedback](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_screen-feedback.md)
 
 ---
 
@@ -196,7 +196,7 @@ Wire {
 
 ### Requires (Prerequisites)
 
-- **X1 Infrastructure** ([X1_infrastructure.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_infrastructure.md))
+- **X1 Infrastructure** ([X1_infrastructure.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_infrastructure.md))
   - Sync hold state (syncHoldProp)
   - Must be installed first
 
@@ -205,12 +205,12 @@ Wire {
 
 ### Works Alongside
 
-- **Tempo Control** ([X1_tempo-control.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_tempo-control.md))
+- **Tempo Control** ([X1_tempo-control.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_tempo-control.md))
   - Both use Sync hold modifier
   - Complementary tempo/grid features
   - No conflict
 
-- **Deck Features** ([X1_deck-features.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_deck-features.md))
+- **Deck Features** ([X1_deck-features.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_deck-features.md))
   - Display options, gridlock toggle
   - Complementary
 

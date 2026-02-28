@@ -1,7 +1,7 @@
 # X1MK3 Tempo Control (Sync Hold + BPM Adjustment)
 
 **Source:** X1MK3 Performance Mod v12 (Community Forum)  
-**Commit:** https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_tempo-control.md  
+**Commit:** https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_tempo-control.md  
 **Traktor:** 4.4.1
 
 ---
@@ -49,9 +49,9 @@ MappingPropertyDescriptor {
 
 ## See Also
 
-- **Foundation:** [X1 Infrastructure](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_infrastructure.md) (SHIFT key handling, state management)
-- **Related:** [Beatgrid Control](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_beatgrid-control.md) (beat position management)
-- **Feedback:** [Transport LED Feedback](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_transport-led-feedback.md), [Screen Feedback](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_screen-feedback.md)
+- **Foundation:** [X1 Infrastructure](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_infrastructure.md) (SHIFT key handling, state management)
+- **Related:** [Beatgrid Control](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_beatgrid-control.md) (beat position management)
+- **Feedback:** [Transport LED Feedback](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_transport-led-feedback.md), [Screen Feedback](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_screen-feedback.md)
 
 ### Fine Tempo Adjustment (±0.01 BPM)
 
@@ -177,7 +177,7 @@ Wire {
 
 ### Requires (Prerequisites)
 
-- **X1 Infrastructure** ([X1_infrastructure.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_infrastructure.md))
+- **X1 Infrastructure** ([X1_infrastructure.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_infrastructure.md))
   - SHIFT key handling, state management
   - Must be installed first
 
@@ -186,15 +186,15 @@ Wire {
 
 ### Works Alongside
 
-- **Beatgrid Control** ([X1_beatgrid-control.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_beatgrid-control.md))
+- **Beatgrid Control** ([X1_beatgrid-control.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_beatgrid-control.md))
   - Complementary tempo/grid features
   - Both use SYNC modifier, no conflict
 
-- **Transport LED Feedback** ([X1_transport-led-feedback.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_transport-led-feedback.md))
+- **Transport LED Feedback** ([X1_transport-led-feedback.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_transport-led-feedback.md))
   - Shows SYNC button state colors
   - No conflict
 
-- **Screen Feedback** ([X1_screen-feedback.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_screen-feedback.md))
+- **Screen Feedback** ([X1_screen-feedback.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_screen-feedback.md))
   - Displays BPM during adjustment
   - Complementary
 

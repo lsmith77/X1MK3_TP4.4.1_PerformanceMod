@@ -46,7 +46,7 @@ A comprehensive, community-driven performance customization for the Traktor X1MK
    xcopy "%APPDATA%\Native Instruments\Traktor Pro 4.4.1\qml" "%APPDATA%\Native Instruments\Traktor Pro 4.4.1\qml.backup" /E /I
    ```
 
-2. **Download the mod:** [X1MK3_TP4.4.1_PerformanceMod_12.zip](https://community.native-instruments.com/api/v2/media/download-by-url?url=https%3A%2F%2Fus.v-cdn.net%2F6034896%2Fuploads%2F4KULOIYD0YCO%2Fx1mk3-tp4-4-1-performancemod-12.zip)
+2. **Download the mod:** [X1MK3_PerformanceMod_12.zip](https://community.native-instruments.com/api/v2/media/download-by-url?url=https%3A%2F%2Fus.v-cdn.net%2F6034896%2Fuploads%2F4KULOIYD0YCO%2Fx1mk3-tp4-4-1-performancemod-12.zip)
 
 3. **Extract and install:**
    - Extract the zip file
@@ -62,7 +62,7 @@ A comprehensive, community-driven performance customization for the Traktor X1MK
 
 ### Core Infrastructure
 
-**[X1 Infrastructure](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_infrastructure.md)** - Foundation feature  
+**[X1 Infrastructure](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_infrastructure.md)** - Foundation feature  
 Core system setup and mode handling:
 
 - **Setup System:** Easy access to configuration pages
@@ -73,7 +73,7 @@ Core system setup and mode handling:
 
 ### Transport & Timing
 
-**[Tempo Control](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_tempo-control.md)** - Sync tap/hold behavior + BPM adjustment
+**[Tempo Control](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_tempo-control.md)** - Sync tap/hold behavior + BPM adjustment
 
 - Sync [Tap]: Toggle sync on/off
 - Sync [Hold]: Check BPM without toggling
@@ -82,7 +82,7 @@ Core system setup and mode handling:
 - Sync+Loop Push: Reset tempo to default
 - Global tempo master when AUTO off
 
-**[Beatgrid Control](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_beatgrid-control.md)** - Manual beat sync + grid marker management
+**[Beatgrid Control](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_beatgrid-control.md)** - Manual beat sync + grid marker management
 
 - Sync+Play: Manual beat tap (set downbeat)
 - Sync+Cue: Set custom grid marker
@@ -92,7 +92,7 @@ Core system setup and mode handling:
 
 ### Deck Control
 
-**[Deck Features](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_deck-features.md)** - Display options + vinyl break + beats counter
+**[Deck Features](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_deck-features.md)** - Display options + vinyl break + beats counter
 
 - Optional display: Current beats or beats to cue
 - Vinyl Break: Hold Play for 0.2s+ to simulate vinyl stop
@@ -102,7 +102,7 @@ Core system setup and mode handling:
 
 ### Navigation & Browser
 
-**[Browser Mode](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_browser-mode.md)** - Track navigation + loading + preview player control
+**[Browser Mode](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_browser-mode.md)** - Track navigation + loading + preview player control
 
 - Browse Turn Left/Right: Navigate playlist (1 step, 10 steps with Shift)
 - Browse Tap: Load selected track to deck
@@ -114,7 +114,7 @@ Core system setup and mode handling:
 
 ### Effect Control
 
-**[FX Section](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_fx-section.md)** - Effect unit assignment + overlay control
+**[FX Section](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_fx-section.md)** - Effect unit assignment + overlay control
 
 - Arrow Buttons: Switch between FX units (FX1/FX2/FX3)
 - MODE Button: Cycle FX overlays (FX1 → FX2 → Mixer → back to Deck)
@@ -124,7 +124,7 @@ Core system setup and mode handling:
 
 ### Mixer & Level Control
 
-**[Mixer Overlay](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_mixer-overlay.md)** - Custom knob/button assignment system
+**[Mixer Overlay](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_mixer-overlay.md)** - Custom knob/button assignment system
 
 **Setup Page 1 Buttons (L1-L4 / R1-R4):**
 
@@ -143,7 +143,7 @@ Core system setup and mode handling:
 
 ### Stem & Remix Control
 
-**[Stem/Remix Controls](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_stem-remix-controls.md)** - Superknob + capture source + quantization + beat counter
+**[Stem/Remix Controls](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_stem-remix-controls.md)** - Superknob + capture source + quantization + beat counter
 
 - **Superknob:** Turn Left = Volume, Turn Right = High-pass filter
 - **Shift+Loop:** Capture source selection (Select which Stem to control)
@@ -154,7 +154,7 @@ Core system setup and mode handling:
 
 ### Visual Feedback
 
-**[Transport LED Feedback](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_transport-led-feedback.md)** - CDJ-style LED colors + CuePoint blinker
+**[Transport LED Feedback](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_transport-led-feedback.md)** - CDJ-style LED colors + CuePoint blinker
 
 - **Play Button:** Green (normal), White (Beat-Tap with Shift)
 - **Sync Button:** Cyan (normal), Red (Master mode with Shift)
@@ -162,7 +162,7 @@ Core system setup and mode handling:
 - **Hotcues:** Load Marker (Yellow), Fade-In (Dark Orange), Fade-Out (Red)
 - **CuePoint Blinker:** Synchronized blink effect
 
-**[Screen Feedback](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_screen-feedback.md)** - Visual indicators + screen-based feedback
+**[Screen Feedback](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_screen-feedback.md)** - Visual indicators + screen-based feedback
 
 - **Browser View:** SHIFT LED blinks, text indicator shows mode
 - **Preview Player:** Status blinks when active
@@ -242,17 +242,17 @@ Core system setup and mode handling:
 
 For detailed documentation on each feature, see the individual feature files:
 
-1. **[X1_infrastructure.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_infrastructure.md)** - Foundation layer
-2. **[X1_tempo-control.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_tempo-control.md)** - Sync/BPM control
-3. **[X1_beatgrid-control.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_beatgrid-control.md)** - Beat sync/markers
-4. **[X1_deck-features.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_deck-features.md)** - Display/vinyl break
-5. **[X1_browser-mode.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_browser-mode.md)** - Navigation/loading
-6. **[X1_mixer-overlay.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_mixer-overlay.md)** - Knob assignments
-7. **[X1_stem-remix-controls.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_stem-remix-controls.md)** - Superknobs/quantize
-8. **[X1_transport-led-feedback.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_transport-led-feedback.md)** - LED colors
-9. **[X1_fx-section.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_fx-section.md)** - FX control
-10. **[X1_screen-feedback.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_screen-feedback.md)** - Visual indicators
-11. **[X1_overmapping-support.md](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_overmapping-support.md)** - Advanced overmapping
+1. **[X1_infrastructure.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_infrastructure.md)** - Foundation layer
+2. **[X1_tempo-control.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_tempo-control.md)** - Sync/BPM control
+3. **[X1_beatgrid-control.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_beatgrid-control.md)** - Beat sync/markers
+4. **[X1_deck-features.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_deck-features.md)** - Display/vinyl break
+5. **[X1_browser-mode.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_browser-mode.md)** - Navigation/loading
+6. **[X1_mixer-overlay.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_mixer-overlay.md)** - Knob assignments
+7. **[X1_stem-remix-controls.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_stem-remix-controls.md)** - Superknobs/quantize
+8. **[X1_transport-led-feedback.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_transport-led-feedback.md)** - LED colors
+9. **[X1_fx-section.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_fx-section.md)** - FX control
+10. **[X1_screen-feedback.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_screen-feedback.md)** - Visual indicators
+11. **[X1_overmapping-support.md](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_overmapping-support.md)** - Advanced overmapping
 
 ---
 
@@ -279,28 +279,28 @@ X1 Infrastructure (Foundation)
 ### I want to...
 
 **...control tempo?**  
-→ [Tempo Control](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_tempo-control.md) (Sync hold vs tap, BPM adjustment)
+→ [Tempo Control](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_tempo-control.md) (Sync hold vs tap, BPM adjustment)
 
 **...set beat position?**  
-→ [Beatgrid Control](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_beatgrid-control.md) (Manual beat tap, grid markers)
+→ [Beatgrid Control](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_beatgrid-control.md) (Manual beat tap, grid markers)
 
 **...browse and load tracks?**  
-→ [Browser Mode](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_browser-mode.md) (Navigate, load, preview)
+→ [Browser Mode](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_browser-mode.md) (Navigate, load, preview)
 
 **...work with FX?**  
-→ [FX Section](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_fx-section.md) (FX unit control, overlays)
+→ [FX Section](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_fx-section.md) (FX unit control, overlays)
 
 **...customize mixer controls?**  
-→ [Mixer Overlay](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_mixer-overlay.md) (Knob assignments, button setup)
+→ [Mixer Overlay](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_mixer-overlay.md) (Knob assignments, button setup)
 
 **...control Remix/Stem?**  
-→ [Stem/Remix Controls](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_stem-remix-controls.md) (Superknob, quantization)
+→ [Stem/Remix Controls](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_stem-remix-controls.md) (Superknob, quantization)
 
 **...understand everything?**  
 → See [Feature Documentation Index](#feature-documentation-index) for all features with dependencies
 
 **...understand how it all works together?**  
-→ [X1 Infrastructure](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_infrastructure.md) (Foundation layer)
+→ [X1 Infrastructure](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_infrastructure.md) (Foundation layer)
 
 **...troubleshoot a feature?**  
 → Use dependencies section in each feature file to check related features
@@ -450,14 +450,14 @@ The X1MK3 is designed as an **integrated system** where many behaviors are inter
 
 **Setup Page 2 (Stem/Remix):**
 
-- Capture Source Selection - documented in [Stem/Remix Controls](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_stem-remix-controls.md)
+- Capture Source Selection - documented in [Stem/Remix Controls](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_stem-remix-controls.md)
 - Quantization Range Selection - setup option for fine-tuning grid values (1/4, 1/8, 1/16)
 - Remix Deck A/B Detection - automatic, not user-configurable
 
 **Setup Page 3 (Advanced):**
 
-- FX Overmapping Modifier (R1) - documented in [Overmapping Support](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_overmapping-support.md)
-- EQ Kill Button Combinations - mentioned in [Mixer Overlay](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_mixer-overlay.md) but extended options not fully documented
+- FX Overmapping Modifier (R1) - documented in [Overmapping Support](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_overmapping-support.md)
+- EQ Kill Button Combinations - mentioned in [Mixer Overlay](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_mixer-overlay.md) but extended options not fully documented
 - Custom FX Assignment Modes - feature placeholder for future (not implemented in v12)
 
 ### Core X1 Hardware (Not Modified by Mod)
@@ -473,7 +473,7 @@ These standard X1MK3 hardware features are not customized by the performance mod
 
 - **Traktor Native Deck Controls** - Standard Traktor Pro features (hot cues, grids, cue points) not customized by X1 mod
 - **Audio Output Routing** - Managed by Traktor itself (factory-default after installation)
-- **Traktor Effects Library** - FX provided by Traktor; X1 controls selection/parameters via [FX Section](https://github.com/lsmith77/X1MK3_TP4.4.1_PerformanceMod/blob/e70f1efadc567eddc35cc4323bfac1f35e0bc7be/X1_fx-section.md)
+- **Traktor Effects Library** - FX provided by Traktor; X1 controls selection/parameters via [FX Section](https://github.com/lsmith77/X1MK3_PerformanceMod/blob/20cf2811fe29b2a559068fb4c6c6b8fd4d1994af/X1_fx-section.md)
 - **Installation & Backup** - Operational procedures documented in installation section
 - **Multi-Controller Layering** - Advanced deployment pattern for using X1 with other controller mods
 
