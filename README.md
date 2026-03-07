@@ -36,25 +36,16 @@ A comprehensive, community-driven performance customization for the Traktor X1MK
 
 ### Installation
 
-1. **Backup your QML folder** before applying any changes:
+For complete setup guide, backup/restore options, and detailed instructions, see:
+**https://github.com/lsmith77/traktor-kontrol-qml/blob/main/08_SHARING_CHANGES.md**
 
-   ```bash
-   # macOS / Linux
-   cp -r ~/.Traktor/qml ~/.Traktor/qml.backup
+Quick install using the `install-traktor-mod` script:
 
-   # Windows
-   xcopy "%APPDATA%\Native Instruments\Traktor Pro 4.4.1\qml" "%APPDATA%\Native Instruments\Traktor Pro 4.4.1\qml.backup" /E /I
-   ```
-
-2. **Download the mod:** [X1MK3_PerformanceMod_12.zip](https://community.native-instruments.com/api/v2/media/download-by-url?url=https%3A%2F%2Fus.v-cdn.net%2F6034896%2Fuploads%2F4KULOIYD0YCO%2Fx1mk3-tp4-4-1-performancemod-12.zip)
-
-3. **Extract and install:**
-   - Extract the zip file
-   - Copy the `qml/` folder contents to your Traktor QML directory:
-     - **macOS:** `~/Library/Application Support/Native Instruments/Traktor Pro 4.4.1/qml/`
-     - **Windows:** `%APPDATA%\Native Instruments\Traktor Pro 4.4.1\qml\`
-   - Replace existing files when prompted
-   - Restart Traktor
+```bash
+git clone https://github.com/lsmith77/X1MK3_PerformanceMod.git
+cd X1MK3_PerformanceMod
+install-traktor-mod
+```
 
 ---
 
