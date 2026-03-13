@@ -160,6 +160,9 @@ Item {
   MappingProperty { id: softTakeoverDirectionProp; path: screen.propertiesPath + ".softtakeover." + lastTouchedKnob + ".direction" }
   property alias softTakeoverDirection: softTakeoverDirectionProp.value
 
+  MappingProperty { id: faderSoftTakeoverDirectionProp; path: screen.propertiesPath + ".softtakeover.fader.direction" }
+  property alias faderSoftTakeoverDirection: faderSoftTakeoverDirectionProp.value
+
   MappingProperty { id: shiftProp; path: "mapping.state.shift" }
   property alias shift: shiftProp.value
 
